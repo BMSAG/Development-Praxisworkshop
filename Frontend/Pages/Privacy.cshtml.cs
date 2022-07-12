@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace Development_Praxisworkshop.Pages
 {
     //[AllowAnonymous]
-    [Authorize(Roles = ("d32ce6ad-d1c1-48e9-ad3d-a30798dcdc16"))] // Diginea
+    //[Authorize(Roles = ("d32ce6ad-d1c1-48e9-ad3d-a30798dcdc16"))] // Diginea
     public class PrivacyModel : PageModel
     {
         private readonly ILogger<PrivacyModel> _logger;
